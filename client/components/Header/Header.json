@@ -1,8 +1,8 @@
 {
   "links": [
     {
-      "name": "Ideas",
-      "link": "/ideas",
+      "name": "About",
+      "link": "/#about",
       "classPrefix": "header_ideas"
     },
     {
@@ -11,13 +11,13 @@
       "classPrefix": "header_services"
     },
     {
-      "name": "Products",
-      "link": "/products",
+      "name": "Team",
+      "link": "/team",
       "classPrefix": "header_products"
     },
     {
       "name": "About",
-      "link": "/about",
+      "link": "/contact",
       "classPrefix": "header_about"
     }
   ]

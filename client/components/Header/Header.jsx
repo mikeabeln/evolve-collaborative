@@ -1,8 +1,7 @@
 import * as React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link'
 import './Header.scss'
 import HeaderData from './Header.json'
-import moreIcon from './more.svg'
 import menuIcon from './menu.svg'
 import logo from './logo.svg'
 
@@ -30,6 +29,7 @@ class Header extends React.Component {
                             exact='true'
                             to='/'
                             onClick={this.props.closeNav}
+                            className='header_logo-link'
                         >
                             <img className='header_logo' src={logo}/>
                         </Link>
@@ -38,27 +38,16 @@ class Header extends React.Component {
                         <ul className='header_link-list'>
                             {HeaderData.links.map((link, index) => (
                                 <li key={index} className='header_list-item'>
-                                    <NavLink
+                                    <Link
+                                        smooth
                                         to={link.link}
                                         onClick={this.props.closeNav}
                                         className={'header_link ' + link.classPrefix + '-link'}
-                                        activeClassName='header_link-active'
                                     >
                                         {link.name}
-                                    </NavLink>
+                                    </Link>
                                 </li>
                             ))}
-                            <li className='header_list-item'>
-                                <button
-                                    className={'header_more-button'}
-                                    onClick={this.props.toggleNav}
-                                    aria-expanded={this.props.navOpen}
-                                    aria-haspopup={ true }
-                                    aria-label='More Navigation Links'
-                                >
-                                    <img className='header_more-icon' src={moreIcon} />
-                                </button>
-                            </li>
                         </ul>
                     </menu>
                     <div className='header_menu-button-cont colXs1 colXsOffset8'>

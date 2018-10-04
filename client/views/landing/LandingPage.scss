@@ -13,3 +13,40 @@
 .caps{
   text-transform: lowercase;
 }
+
+.main_image-1{
+  width: 100%;
+}
+
+.main_about-label{
+  font-family: 'Libre Baskerville', serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 1.6rem;
+  line-height: 3.6rem;
+  margin-top: 9.6rem;
+  margin-bottom: 0rem;
+}
+
+.main_about-subhead{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin-top: 3.2rem;
+}
+
+.main_about-body{
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.main_about-text-cont{
+  padding-bottom: 8rem;
+  background-color: #FCB756;
+  margin-top: -0.2rem;
+}
+
+.hr{
+  border: 0.05rem solid #000000;
+}
