@@ -7,17 +7,17 @@
     },
     {
       "name": "Services",
-      "link": "/services",
+      "link": "/#services",
       "classPrefix": "header_services"
     },
     {
       "name": "Team",
-      "link": "/team",
+      "link": "/#team",
       "classPrefix": "header_products"
     },
     {
-      "name": "About",
-      "link": "/contact",
+      "name": "Contact",
+      "link": "/#contact",
       "classPrefix": "header_about"
     }
   ]

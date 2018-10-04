@@ -34,11 +34,13 @@
   font-size: 3.2rem;
   line-height: 4rem;
   margin-top: 3.2rem;
+  margin-bottom: 2.4rem;
 }
 
-.main_about-body{
-  font-size: 1.8rem;
-  line-height: 2.8rem;
+.main_body{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: 0px;
 }
 
 .main_about-text-cont{
@@ -47,6 +49,35 @@
   margin-top: -0.2rem;
 }
 
+.main_team-text-cont{
+  padding-bottom: 8rem;
+  background-color: #FC6D81;
+  margin-top: -0.2rem;
+}
+
+.main_contact-text-cont{
+  padding-bottom: 8rem;
+  background-color: #000000;
+  margin-top: -0.2rem;
+  color: white;
+}
+
+.main_tbd-cont{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 9.6rem;
+  padding-bottom: 9.6rem;
+  font-size: 3.2rem;
+  letter-spacing: 0.8rem;
+}
+
 .hr{
   border: 0.05rem solid #000000;
+}
+
+.hr-w{
+  border: 0.05rem solid #ffffff;
+  margin-bottom: 2.4rem;
 }
