@@ -1,3 +1,5 @@
+@import '../../styles/_color.scss';
+
 .Landing_Container {
     display: block;
     width: 100%;
@@ -44,15 +46,33 @@
 }
 
 .main_about-text-cont{
-  padding-bottom: 8rem;
+  padding-bottom: 9.6rem;
   background-color: #FCB756;
   margin-top: -0.2rem;
 }
 
 .main_team-text-cont{
-  padding-bottom: 8rem;
+  padding-bottom: 9.6rem;
   background-color: #FC6D81;
   margin-top: -0.2rem;
+}
+
+.main_services-text-cont{
+  padding-bottom: 9.6rem;
+  background-color: #68CDB9;
+  margin-top: -0.2rem;
+}
+
+.services-spacer{
+  margin-top: 9.6rem;
+}
+
+.services-image-small{
+  display: block;
+}
+
+.services-image-large{
+  display: none;
 }
 
 .main_contact-text-cont{
@@ -80,4 +100,46 @@
 .hr-w{
   border: 0.05rem solid #ffffff;
   margin-bottom: 2.4rem;
+}
+
+.contact_address{
+  font-size: 1.8rem;
+  letter-spacing: 0.08rem;
+  color: #ffffff;
+}
+
+a.contact_mail-link{
+  font-size: 1.8rem;
+  letter-spacing: 0.08rem;
+  color: #ffffff;
+
+  &:hover{
+    text-decoration: underline;
+    color: $gray300;
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+  .services-image-small{
+    display: none;
+  }
+
+  .services-image-large{
+    display: block;
+  }
+
+}
+
+@media only screen and (min-width: 1280px) {
+
+}
+
+@media only screen and (min-width: 1440px) {
+
 }
