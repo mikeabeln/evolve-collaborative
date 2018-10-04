@@ -3,10 +3,10 @@ import 'firebase/auth'
 
 export const config = {
     apiKey: 'AIzaSyDET_geKH87n5W0yA6EDQzvl4_2pFAS4mA',
-    authDomain: 'generic-specific.firebaseapp.com',
-    databaseURL: 'https://generic-specific.firebaseio.com',
-    projectId: 'generic-specific',
-    storageBucket: 'generic-specific.appspot.com',
+    authDomain: 'evolve-collaborative.firebaseapp.com',
+    databaseURL: 'https://evolve-collaborative.firebaseio.com',
+    projectId: 'evolve-collaborative',
+    storageBucket: 'evolve-collaborative.appspot.com',
     messagingSenderId: '461325237357'
 }
 

@@ -1,12 +1,12 @@
 {
-  "name": "generic-specific",
+  "name": "evolve-collaborative",
   "version": "1.0.0",
   "keywords": [],
   "author": "Mike Abeln",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikeabeln/generic-specific.git"
+    "url": "git://github.com/mikeabeln/evolve-collaborative.git"
   },
   "engines": {
     "node": "6.11.5"

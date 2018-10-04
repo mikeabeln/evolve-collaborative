@@ -7,7 +7,6 @@ class LandingPage extends React.Component {
 	    return (
 	        <div className='Landing_Container'>
 	            {/* put landing page content here */}
-	            <p className='Landing_Paragraph'>ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789 &!@#$%*.,/:; <br/> <span className='caps'>ABCDEFGHIJKLMNOPQRSTUVWXYZ</span> </p>
 	            <Link to='/404'>404</Link>
 	            <Link to='/about'>About</Link>
 	            <Link to='/login'>Login</Link>

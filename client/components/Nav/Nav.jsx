@@ -24,7 +24,7 @@ class Nav extends React.Component {
         return (
             <nav className={'row nav ' + (this.props.open ? 'nav_open' : 'nav_closed')}>
                 <Nav_Links toggleNav={this.props.toggleNav}/>
-                <Nav_Intro user={this.props.user} login={this.props.login} logout={this.props.logout} />
+                <Nav_Intro user={this.props.user}/>
             </nav>
         )
     }
