@@ -1,5 +1,57 @@
 @import '../../styles/_color.scss';
 
+.bleed-right{
+  padding-right: 0;
+}
+
+.full-bleed{
+  padding: 0;
+}
+
+.no-flow{
+  overflow: hidden;
+}
+
+.text-half-cont{
+  height: 100%;
+}
+
+.neg-top{
+  margin-top: -0.8rem;
+  width: 100%;
+}
+
+.services-text-cont{
+  background-color: white;
+  padding-bottom: 8rem;
+}
+
+.text-section{
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 64%;
+  margin: auto;
+}
+
+.text-section-alt{
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  margin: auto;
+  background-color: #68CDB9;
+  padding: calc(29%) 4rem;
+  vertical-align: middle;
+}
+
 .Landing_Container {
     display: block;
     width: 100%;
@@ -30,25 +82,34 @@
   margin-bottom: 0rem;
 }
 
-.main_about-subhead{
+.services_subhead{
   font-family: 'Work Sans', sans-serif;
   font-weight: 800;
-  font-size: 3.2rem;
+  font-size: 4.8rem;
   line-height: 4rem;
   margin-top: 3.2rem;
   margin-bottom: 2.4rem;
 }
 
-.main_body{
+.services_main-body{
   font-size: 1.6rem;
   line-height: 2.4rem;
   margin: 0px;
+  width: 75%;
 }
 
-.main_about-text-cont{
-  padding-bottom: 9.6rem;
-  background-color: #FCB756;
-  margin-top: -0.2rem;
+.services_main-img-cont{
+  width: 100%;
+  padding: 0;
+}
+
+.services_main-img{
+  width: 100%;
+}
+
+.insight_top-text-cont{
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .main_team-text-cont{
@@ -123,6 +184,13 @@
 .hr-w{
   border: 0.05rem solid #ffffff;
   margin-bottom: 2.4rem;
+}
+
+.hr-ws{
+  border: 0.05rem solid #ffffff;
+  margin-bottom: 2.4rem;
+  width: 75%;
+  margin-left:0rem;
 }
 
 .contact_address{

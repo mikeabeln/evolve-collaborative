@@ -4,6 +4,7 @@ import './LandingPage.scss'
 import image1 from './images/TMY.jpg'
 import image2 from './images/steps.jpg'
 import image3 from './images/map.png'
+import servicesOval from './images/services_oval-white.png'
 
 class LandingPage extends React.Component {
     render() {
@@ -53,12 +54,12 @@ class LandingPage extends React.Component {
                             </p>
                         </div>
                         <div className='colMd5 colMdOffset2 colX10 colXsOffset1'>
-                            <p>image</p>
+                            <Link to='/insight'> <img className='services-oval' src={servicesOval}/></Link>
                         </div>
                     </div>
                     <div className='row services-spacer'>
                         <div className='colMd5 colMdOffset0 colX10 colXsOffset1 services-image-large'>
-                            <p>image</p>
+                            <Link to='/design'> <img className='services-oval' src={servicesOval}/></Link>
                         </div>
                         <div className='colMd5 colMdOffset2 colXs10 colXsOffset1'>
                             <hr className='hr'/>
@@ -70,7 +71,7 @@ class LandingPage extends React.Component {
                             </p>
                         </div>
                         <div className='colMd5 colMdOffset0 colX10 colXsOffset1 services-image-small'>
-                            <p>image</p>
+                            <Link to='/design'> <img className='services-oval' src={servicesOval}/></Link>
                         </div>
                     </div>
                     <div className='row services-spacer'>
@@ -84,7 +85,7 @@ class LandingPage extends React.Component {
                             </p>
                         </div>
                         <div className='colMd5 colMdOffset2 colX10 colXsOffset1'>
-                            <p>image</p>
+                            <Link to='/innovation'> <img className='services-oval' src={servicesOval}/></Link>
                         </div>
                     </div>
                 </section>
