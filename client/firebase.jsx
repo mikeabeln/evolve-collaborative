@@ -2,12 +2,12 @@ import firebase from 'firebase/app'
 import 'firebase/auth'
 
 export const config = {
-    apiKey: 'AIzaSyDET_geKH87n5W0yA6EDQzvl4_2pFAS4mA',
+    apiKey: 'AIzaSyAazw7naf8Y3u7S4-gn8wo2Bda2HQBVyz8',
     authDomain: 'evolve-collaborative.firebaseapp.com',
     databaseURL: 'https://evolve-collaborative.firebaseio.com',
     projectId: 'evolve-collaborative',
-    storageBucket: 'evolve-collaborative.appspot.com',
-    messagingSenderId: '461325237357'
+    storageBucket: '',
+    messagingSenderId: '878479204216'
 }
 
 firebase.initializeApp(config)
