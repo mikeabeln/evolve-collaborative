@@ -1,0 +1,24 @@
+{
+  "links": [
+    {
+      "name": "Ideas",
+      "link": "/ideas",
+      "classPrefix": "header_ideas"
+    },
+    {
+      "name": "Services",
+      "link": "/services",
+      "classPrefix": "header_services"
+    },
+    {
+      "name": "Products",
+      "link": "/products",
+      "classPrefix": "header_products"
+    },
+    {
+      "name": "About",
+      "link": "/about",
+      "classPrefix": "header_about"
+    }
+  ]
+}

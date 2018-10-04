@@ -1,0 +1,309 @@
+@import '../../styles/_color.scss';
+
+.header {
+    font-weight: 400;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 2.4rem 0 rgba(125, 125, 125, 0.24);
+    z-index: 100;
+}
+
+.header_logo-cont{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    box-sizing: border-box;
+
+    &:hover{
+    }
+
+    &:focus{
+      // outline: none;
+    }
+}
+
+a.header_logo {
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+    height: 100%;
+    color: black;
+
+    &:hover{
+      cursor: pointer;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    &:focus{
+      outline: none;
+      border-left: 0.2rem solid black;
+      padding-left: 0.6rem;
+    }
+
+    &:focus:active{
+      border-left: 0.2rem solid black;
+      padding-left: 0.6rem;
+    }
+}
+
+a.header_logo-active {
+    font-weight: 700;
+
+    &:focus{
+      border-left: 0.2rem solid black;
+      padding-left: 0.6rem;
+    }
+
+    &:focus:active{
+      border-left: 0.2rem solid black;
+      padding-left: 0.6rem;
+    }
+}
+
+.header_links-cont {
+    height: 100%;
+    margin-top: 0.6rem;
+    display: none;
+}
+
+.header_link-list {
+    width: 100%;
+    text-align: right;
+    padding: 0;
+    margin: 1.4rem 0 0;
+}
+
+.header_list-item {
+    font-family: 'Roboto Mono', monospace;
+    color: #414142;
+}
+
+.header_list-item:not(:first-child) {
+    margin-left: 3.2rem;
+}
+
+.header_list-item:last-child {
+    margin-left: 1.6rem;
+    margin-right: -0.8rem;
+    display: inline-block;
+    &:hover{
+      background-color: $gray200;
+      border-radius: 100rem;
+    }
+}
+
+a.header_link {
+    color: black;
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 0.2rem 0.4rem;
+    &:hover {
+        font-weight: 700;
+        text-decoration: none;
+        border-bottom: 0.2rem solid $yellow500;
+    }
+    &:focus {
+      outline: none;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 0.2rem solid $yellow500;
+    }
+
+    &:hover:focus:active {
+      outline: none;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 0.2rem solid black;
+    }
+}
+
+a.header_ideas-link{
+    &:hover {
+        border-bottom: 0.2rem solid $blue300;
+    }
+
+    &:focus {
+      border-bottom: 0.2rem solid $blue300;
+    }
+}
+
+a.header_services-link{
+    &:hover {
+        border-bottom: 0.2rem solid $red300;
+    }
+
+    &:focus {
+      border-bottom: 0.2rem solid $red300;
+    }
+}
+
+a.header_products-link{
+    &:hover {
+        border-bottom: 0.2rem solid $green300;
+    }
+
+    &:focus {
+      border-bottom: 0.2rem solid $green300;
+    }
+}
+
+a.header_about-link{
+    &:hover {
+        border-bottom: 0.2rem solid $yellow500;
+    }
+
+    &:focus {
+      border-bottom: 0.2rem solid $yellow500;
+    }
+}
+
+a.header_link-active {
+    color: black;
+    font-weight: 600;
+    border-bottom: 0.2rem solid $yellow500;
+
+    &:hover {
+      font-weight: 700;
+      text-decoration: none;
+    }
+    &:focus {
+      outline: none;
+      font-weight: 700;
+      text-decoration: none;
+    }
+}
+
+.header_more-icon, .header_menu-icon{
+    vertical-align: middle;
+    color: $gray600;
+    cursor: pointer;
+}
+
+.header_more-button{
+    background-color: rgba($gray100, 0);
+    border: 0 solid transparent;
+    width: 2.4rem;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 0;
+    margin-top: -0.2rem;
+    border-radius: 100%;
+
+    &:hover{
+      background-color: $gray200;
+    }
+    &:focus{
+      background-color: $gray50;
+      outline: none;
+      box-shadow: 0px 0px 4px 2px $gray700;
+    }
+    &:hover:focus{
+      background-color: $gray200;
+    }
+    &:hover:focus:active{
+      background-color: $yellow500;
+      box-shadow: 0px 0px 4px 2px $yellow900;
+    }
+}
+
+.header_menu-button-cont {
+    height: 100%;
+    margin-top: 1.4rem;
+    display: block;
+}
+
+.header_menu-button{
+    background-color: rgba($gray100, 0);
+    border: 0 solid transparent;
+    width: 3.2rem;
+    height: 3.2rem;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 0.4rem;
+    margin-top: -0.2rem;
+    border-radius: 100%;
+    &:hover{
+      background-color: $gray200;
+    }
+    &:focus{
+      background-color: $gray100;
+      outline: none;
+      box-shadow: 0px 0px 4px 2px $gray300;
+    }
+    &:hover:focus{
+      background-color: $gray200;
+    }
+    &:hover:focus:active{
+      background-color: $yellow500;
+      box-shadow: 0px 0px 4px 2px $yellow900;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        width: 100%;
+    }
+
+    .header_list-item {
+        display: inline-block;
+    }
+
+    .header_links-cont {
+        display: block;
+    }
+
+    .header_menu-button-cont{
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header {
+        width: calc(100% - 6.4rem);
+    }
+
+    a.header_logo {
+        padding-left: 0.8rem;
+
+        &:focus{
+            padding-left: 0.6rem;
+        }
+        &:focus:active{
+            padding-left: 0.6rem;
+        }
+    }
+
+    a.header_logo-active {
+        padding-left: 0.8rem;
+
+        &:focus{
+            padding-left: 0.6rem;
+        }
+        &:focus:active{
+            padding-left: 0.6rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .header {
+        width: calc(100% - 3.2rem);
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .header {
+        width: calc(100% - 9.6rem);
+    }
+
+    .header_list-item:last-child {
+        margin-left: 2.4rem;
+    }
+}

@@ -1,0 +1,126 @@
+@import './../../../styles/_color.scss';
+
+.nav_links-cont{
+    padding-top: 4rem;
+    padding-bottom: 9.6rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.nav_set-cont{
+  margin-top: 5.6rem;
+}
+
+.nav_set-title {
+    font-family: 'Roboto Mono';
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    padding-bottom: 0.4rem;
+    border-bottom: 1px solid $gray700;
+}
+
+.nav_ideas-title {
+  color: $blue300;
+}
+
+.nav_services-title {
+  color: $red300;
+}
+
+.nav_products-title {
+  color: $green300;
+}
+
+.nav_set-list{
+    column-count: 3;
+    list-style: none;
+    padding: 0;
+    margin-top: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+
+.nav_set-list-item{
+}
+
+.nav_set-list-item:not(:first-child){
+  margin-top: 1.2rem;
+}
+
+a.nav_set-link{
+    font-family: 'Roboto Mono';
+    font-size: 1.2rem;
+    font-weight: 100;
+    line-height: 2.2rem;
+    letter-spacing: 0rem;
+    padding-bottom: 0.2rem;
+    color: $gray300;
+
+    &:hover{
+      color: $yellow500;
+      border-bottom: 1px solid $yellow500;
+      font-weight: 400;
+      text-decoration: none;
+    }
+
+    &:focus{
+      outline: none;
+      color: white;
+      font-weight: 400;
+      border-bottom: 1px solid white;
+    }
+
+    &:hover:focus{
+      color: $yellow500;
+      border-bottom: 1px solid $yellow500;
+      font-weight: 400;
+      text-decoration: none;
+    }
+}
+
+a.nav_set-link-active{
+  font-weight: 400;
+
+  &:hover{
+      outline: none;
+      color: white;
+      font-weight: 400;
+      border-bottom: 1px solid white;
+  }
+
+  &:hover:focus{
+      outline: none;
+      font-weight: 400;
+  }
+}
+
+a.nav_ideas-link-active{
+    color: $blue200;
+    border-bottom: 1px solid $blue200;
+
+    &:hover:focus{
+        color: $blue200;
+        border-bottom: 1px solid $blue200;
+    }
+}
+
+a.nav_services-link-active{
+    color: $red200;
+    border-bottom: 1px solid $red200;
+
+    &:hover:focus{
+        color: $red200;
+        border-bottom: 1px solid $red200;
+    }
+}
+
+a.nav_products-link-active{
+    color: $green200;
+    border-bottom: 1px solid $green200;
+
+    &:hover:focus{
+        color: $green200;
+        border-bottom: 1px solid $green200;
+    }
+}
